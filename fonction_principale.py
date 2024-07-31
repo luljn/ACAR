@@ -28,9 +28,9 @@ def Interface_2D(): # Ecran de l'interface 2D.
     while running : # Boucle de jeu de l'écran.
         
         INTERFACE_MOUSE_POS = pygame.mouse.get_pos()
-        plan = pygame.image.load("img/Plan.png") # On charge l'image du plan.
-        petite_voiture = pygame.image.load("img/petite_voiture.png") # On charge l'image de la petite voiture (qui va représenter notre véhicule sur le plan).
-        petite_voiture_2 = pygame.image.load("img/petite_voiture.png") # On charge l'image de la petite voiture (qui va représenter notre véhicule sur le plan) [2ème voiture].
+        plan = pygame.image.load("img/Plan.PNG") # On charge l'image du plan.
+        petite_voiture = pygame.image.load("img/petite_voiture.PNG") # On charge l'image de la petite voiture (qui va représenter notre véhicule sur le plan).
+        petite_voiture_2 = pygame.image.load("img/petite_voiture.PNG") # On charge l'image de la petite voiture (qui va représenter notre véhicule sur le plan) [2ème voiture].
 
         fenetre.fill("Black") # Définition de la couleur d'arriere plan de la fenêtre. 
 
@@ -138,9 +138,9 @@ def Main():
     pygame.display.set_caption('ACAR : City Smart Road') # Pour changer le titre de la fenêtre.
     pygame.display.set_icon(icone) # Pour changer l'icône.
 
-    image_1 = pygame.image.load("img/voiture.png").convert() # Image de fond, écran d'accueil.
-    image_2 = pygame.image.load("img/city-modeling.png").convert() # Image de la voiture (elle va pouvoir se déplacer :) !).
-    menu = pygame.image.load("img/menu.png").convert() 
+    image_1 = pygame.image.load("img/voiture.PNG").convert() # Image de fond, écran d'accueil.
+    image_2 = pygame.image.load("img/city-modeling.PNG").convert() # Image de la voiture (elle va pouvoir se déplacer :) !).
+    menu = pygame.image.load("img/menu.PNG").convert() 
     horloge = pygame.time.Clock() # Variable de gestion des fps ("frames per second" vitesse de déplacement d'une image).
 
     x = -45 # Position en abscisses de l'image de la voiture.

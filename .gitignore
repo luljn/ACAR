@@ -1,3 +1,5 @@
 __pycache__
 /build
 /dist/Main/_internal
+/dist/Fonts
+/dist/img
