@@ -19,3 +19,7 @@ class Voiture:
     def Afficher_voiture(self, screen):
 
         screen.blit(self.image, self.rect)
+        
+class Joueur :
+    
+    pass

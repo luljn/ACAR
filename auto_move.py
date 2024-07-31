@@ -6,7 +6,7 @@ import time
 pygame.init()
 screen = pygame.display.set_mode((1280, 760), pygame.RESIZABLE)
 
-image = pygame.image.load("C:/Users/User/Documents/X2026/X1 2021-2022/Projet Intégrateur (Projet applicatif)/Phase 4/ACAR/petite_voiture.png")
+image = pygame.image.load("img/petite_voiture.png")
 x = 300
 y = 200
 
